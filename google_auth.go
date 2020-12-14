@@ -9,6 +9,8 @@ import (
 	"net/http"
 )
 
+const Name = "google"
+
 type googleAuth struct {
 	clientID string
 }
@@ -76,4 +78,8 @@ func NewAuthProvider(clientID string) user.AuthProvider {
 	}
 
 	return &ga
+}
+
+func New(clientID string) user.Option {
+	return user.WithAuthProvider(Name, NewAuthProvider(clientID))
 }
