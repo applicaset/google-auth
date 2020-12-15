@@ -34,7 +34,12 @@ type claims struct {
 
 func (ga *googleAuth) Validate(ctx context.Context, args map[string]interface{}) (user.ValidateResponse, error) {
 	rsp := new(response)
-	idToken, ok := args["id_token"]
+	iIDToken, ok := args["id_token"]
+	if !ok {
+		return rsp, nil
+	}
+
+	idToken, ok := iIDToken.(string)
 	if !ok {
 		return rsp, nil
 	}
