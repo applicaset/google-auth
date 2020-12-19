@@ -1,7 +1,11 @@
 github.com/applicaset/auth-svc v0.0.0-20201214153722-9254cc33eba8 h1:LXVHdIy98N/kxQ3e3NMmfAADWkkEJnb67vAL3w7qyYc=
 github.com/applicaset/auth-svc v0.0.0-20201214153722-9254cc33eba8/go.mod h1:Ydytics1q6tn76vCA6HaMnGLS780WLkblRNCxjAkUzE=
+github.com/applicaset/auth-svc v0.0.0-20201219102659-b5ed46d1e976 h1:7ZHT6bMobphVZQiIX6hVoJQ9VS5HCj2VWtFX3uVF7Hk=
+github.com/applicaset/auth-svc v0.0.0-20201219102659-b5ed46d1e976/go.mod h1:Ydytics1q6tn76vCA6HaMnGLS780WLkblRNCxjAkUzE=
 github.com/applicaset/user-svc v0.0.0-20201214180851-45ce42600b3e h1:oBkVIArqisGeqUB6enw8nsfmj/3yoPPGaklkPEjBNqA=
 github.com/applicaset/user-svc v0.0.0-20201214180851-45ce42600b3e/go.mod h1:dlyIz9i5tFcWTCYVYbzK+pD+YpoebC9Y/MKGSlQzBK4=
+github.com/applicaset/user-svc v0.0.0-20201219103739-bb90f954f348 h1:ITsEUrozR8p9FqybroUjp1+tqPJbaAYo3kCp8JCgqMs=
+github.com/applicaset/user-svc v0.0.0-20201219103739-bb90f954f348/go.mod h1:DXzW0cPkZqLdwMCVJUvc/gchKUayl0K/ve8xcQUydsg=
 github.com/google/uuid v1.1.2 h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y=
 github.com/google/uuid v1.1.2/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/nasermirzaei89/jwt v0.0.0-20191012203123-932fbb1484a6 h1:IMsMpjLnF5YmGOui+SI2GyHUPpG9b5UmQDwTb7686OU=

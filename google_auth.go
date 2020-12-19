@@ -1,4 +1,4 @@
-package google_auth
+package googleauth
 
 import (
 	"context"
@@ -32,8 +32,9 @@ type claims struct {
 	Audience string `json:"aud"`
 }
 
-func (ga *googleAuth) Validate(ctx context.Context, args map[string]interface{}) (user.ValidateResponse, error) {
+func (ga *googleAuth) Validate(ctx context.Context, args map[string]interface{}) (usersvc.ValidateResponse, error) {
 	rsp := new(response)
+
 	iIDToken, ok := args["id_token"]
 	if !ok {
 		return rsp, nil
@@ -63,6 +64,7 @@ func (ga *googleAuth) Validate(ctx context.Context, args map[string]interface{})
 	}
 
 	var c claims
+
 	err = json.NewDecoder(res.Body).Decode(&c)
 	if err != nil {
 		return nil, errors.Wrap(err, "error on decode response body")
@@ -77,7 +79,7 @@ func (ga *googleAuth) Validate(ctx context.Context, args map[string]interface{})
 	return rsp, nil
 }
 
-func NewAuthProvider(clientID string) user.AuthProvider {
+func NewAuthProvider(clientID string) usersvc.AuthProvider {
 	ga := googleAuth{
 		clientID: clientID,
 	}
@@ -85,6 +87,6 @@ func NewAuthProvider(clientID string) user.AuthProvider {
 	return &ga
 }
 
-func New(clientID string) user.Option {
-	return user.WithAuthProvider(Name, NewAuthProvider(clientID))
+func New(clientID string) usersvc.Option {
+	return usersvc.WithAuthProvider(Name, NewAuthProvider(clientID))
 }
