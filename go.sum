@@ -6,6 +6,8 @@ github.com/applicaset/user-svc v0.0.0-20201214180851-45ce42600b3e h1:oBkVIArqisG
 github.com/applicaset/user-svc v0.0.0-20201214180851-45ce42600b3e/go.mod h1:dlyIz9i5tFcWTCYVYbzK+pD+YpoebC9Y/MKGSlQzBK4=
 github.com/applicaset/user-svc v0.0.0-20201219103739-bb90f954f348 h1:ITsEUrozR8p9FqybroUjp1+tqPJbaAYo3kCp8JCgqMs=
 github.com/applicaset/user-svc v0.0.0-20201219103739-bb90f954f348/go.mod h1:DXzW0cPkZqLdwMCVJUvc/gchKUayl0K/ve8xcQUydsg=
+github.com/applicaset/user-svc v0.0.0-20210124155540-8c954d3cd712 h1:NGUbWH8334QU1KENQswf0f2yYX2cHaEr35Tg2+aJ8u0=
+github.com/applicaset/user-svc v0.0.0-20210124155540-8c954d3cd712/go.mod h1:DXzW0cPkZqLdwMCVJUvc/gchKUayl0K/ve8xcQUydsg=
 github.com/google/uuid v1.1.2 h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y=
 github.com/google/uuid v1.1.2/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/nasermirzaei89/jwt v0.0.0-20191012203123-932fbb1484a6 h1:IMsMpjLnF5YmGOui+SI2GyHUPpG9b5UmQDwTb7686OU=
